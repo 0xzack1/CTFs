@@ -19,7 +19,7 @@ The string is 64 characters long and ends with ```==```, used in Base64 encoding
 
 **Important Note:**
 
-Base64 is a method for encoding binary data into an ASCII string format, commonly used in programming and Capture The Flag (CTF) challenges to obscure messages.
+Base64 is a method for encoding binary data into an ASCII string format, commonly used in programming and Capture The Flag (CTF) challenges to obscure messages. It's NOT encryption and it is reversible by anyone.
 # Solution
 We copy the cookie value and use Burp Decoder to obtain the flag.
 
@@ -27,7 +27,7 @@ We copy the cookie value and use Burp Decoder to obtain the flag.
 
 We can also write a simple python script to decode the cookie value, such as:
 
-```bash
+```python
 import base64
 encoded = "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzc3MUQ1RUIwfQ=="
 decoded = base64.b64decode(encoded).decode('utf-8')
