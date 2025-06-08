@@ -33,7 +33,7 @@ We connect to the program a second time and we get the following output:
 Once again, we notice that N is an even number. This suggests that the prime generation process within the encryption program might be flawed.
 
 Taking a closer look at the program's source code, we note the use of a custom function ```getprimes()``` to generate the values of p and q. 
-```bash
+```python
 from sys import exit
 from Crypto.Util.number import bytes_to_long, inverse
 from setup import get_primes
@@ -72,7 +72,7 @@ This function, despite being tasked with generating primes of approximately k//2
 # Solution
 ## Method 1 (p = 2)
 I wrote the following python code to decrypt the ciphertext based off the conclusion we made during the analysis that p or q must equal 2 (in this case, we suppose that p = 2).
-```bash
+```python
 from Crypto.Util.number import long_to_bytes
 
 N = # add value
