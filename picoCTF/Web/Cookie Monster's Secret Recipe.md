@@ -3,7 +3,7 @@ We access the web application via the link provided (http://verbal-sleep.picoctf
 
 ![image](https://github.com/user-attachments/assets/fec7464b-579c-4f62-96c6-7514b6032f43)
 
-After attempting to login with random credentials (user:password), we receive the response below, which includes a hint to solve the challenge.
+After attempting to login with random credentials (```user:password```), we receive the response below, which includes a hint to solve the challenge.
 
 ![image](https://github.com/user-attachments/assets/afa2d446-673d-4a3c-b433-391ead789a4c)
 
