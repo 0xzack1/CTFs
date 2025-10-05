@@ -23,7 +23,7 @@ Nmap done: 1 IP address (1 host up) scanned in 7.97 seconds
 ```
 
 - TCP connect() scan revealed the results above.
-- No knowN exploits for openssh 10.0p2.
+- No known exploits for OpenSSH 10.0p2 that would grant us entry.
 
 ### UDP scan
 
