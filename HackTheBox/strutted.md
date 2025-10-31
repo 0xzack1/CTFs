@@ -76,7 +76,7 @@ Nmap done: 1 IP address (1 host up) scanned in 9.77 seconds
 <img width="1920" height="745" alt="image 1" src="https://github.com/user-attachments/assets/fc6939ba-4f0e-4b66-897d-77aeefe6ff5a" />
 
 - 404 / invalid directory responses reveal: `Apache Tomcat 9.0.58 (Ubuntu)`
-- Theory: Nginx is acting as a Reverse Proxy to a Tomcat backend
+- Nginx is acting as a Reverse Proxy to a Tomcat backend
 
 ### Docker Image
 
