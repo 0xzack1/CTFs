@@ -1,14 +1,14 @@
 # Crack the Gate 2
 
-# Challenge
+## Challenge
 
 The login system has been upgraded with a basic rate-limiting mechanism that locks out repeated failed attempts from the same source. We’ve received a tip that the system might still trust user-controlled headers. Your objective is to bypass the rate-limiting restriction and log in using the known email address: [ctf-player@picoctf.org](mailto:ctf-player@picoctf.org) and uncover the hidden secret.
 
 <img width="975" height="525" alt="image" src="https://github.com/user-attachments/assets/ed00cf82-1243-4c3a-8f96-9c4d8120fdd8" />
 
-# Solution
+## Solution
 
-## Testing
+### Testing
 
 - Post Request:
 
@@ -44,7 +44,7 @@ Connection: close
 }
 ```
 
-## X-Forwarded-For
+### X-Forwarded-For
 
 - Header for identifying the originating IP address of a client connecting to a web server through a proxy server
 - We can manipulate this to bypass IP address rate-limiting as shown below:
