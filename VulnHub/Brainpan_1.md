@@ -69,6 +69,8 @@ _|_|_|    _|          _|_|_|  _|  _|    _|  _|_|_|      _|_|_|  _|    _|
 
 ### UDP
 
+- A UDP scan was not necessary for this machine.
+
 ## Web Enumeration
 
 ```bash
