@@ -139,7 +139,7 @@ if (fp) {
 ```
 
 - From here we understand that the first 2 bytes of our input will be skipped (`ptr = (char *)ptr + 2;`), presumably for being reserved to specify request type (`\x01` in this case), then the file name/path is obtained by subtracting 9 from the string length, which means we can read files by sending a payload that looks like this: `\x01\x01<FILENAME OR FILEPATH>AAAAAA`
-- Commit `9b5c226d15d611d6957f3fda7c993186270a6cc4` revealed some of the file write code:
+- Commit `9b5c226d15d611d6957f3fda7c993186270a6cc4` revealed the file write code:
 
 ```c
 memset(file, 0, sizeof(file)); 
